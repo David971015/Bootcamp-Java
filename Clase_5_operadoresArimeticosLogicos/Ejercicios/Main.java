@@ -73,7 +73,7 @@ public class Main {
 
         if (numeroAleatorio == numeroAdivinador){
             System.out.println("El numero producido es " + numeroAleatorio + " .Felicitaciones usted a adivinado el numero correctamente");
-        }if (numeroAdivinador != numeroAleatorio && numeroAdivinador > 0 && numeroAdivinador < 10){
+        }if (numeroAdivinador != numeroAleatorio && numeroAdivinador >= 0 && numeroAdivinador <= 10){
             System.out.println("El numero producido es " + numeroAleatorio + " .Usted no ha adivinado correctamente, intentelo de nuevo.");
         } else{
             System.out.println("El numero introducido no es correcto. El numero a adivinar esta comprendido entre 1-10.");
@@ -85,7 +85,7 @@ public class Main {
 
         if (numeroAleatorio == numeroAdivinador){
             System.out.println("El numero producido es " + numeroAleatorio + " .Felicitaciones usted a adivinado el numero correctamente");
-        }if (numeroAdivinador != numeroAleatorio && numeroAdivinador > 0 && numeroAdivinador < 100){
+        }if (numeroAdivinador != numeroAleatorio && numeroAdivinador >= 0 && numeroAdivinador <= 100){
             System.out.println("El numero producido es " + numeroAleatorio + " .Usted no ha adivinado correctamente, intentelo de nuevo.");
         } else{
             System.out.println("El numero introducido no es correcto. El numero a adivinar esta comprendido entre 1-100.");
